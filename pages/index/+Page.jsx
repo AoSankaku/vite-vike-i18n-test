@@ -4,14 +4,10 @@ import React, { useState } from 'react'
 import { locales } from '../../locales'
 import { Link } from '../../renderer/Link'
 import { LocaleText } from '../../renderer/LocaleText'
-import { Helmet } from 'react-helmet'
 
 function Page() {
   return (
     <>
-      <Helmet>
-        <title>My Awesome App</title>
-      </Helmet>
       <h1>
         <LocaleText>Welcome</LocaleText>
       </h1>
